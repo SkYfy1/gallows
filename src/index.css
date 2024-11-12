@@ -1,0 +1,74 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+.resultsBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 30vw;
+  font-size: larger;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  background-color: rgba(247, 93, 173, 0.8);
+  color: white;
+}
+
+#wrapper {
+  background-color: white;
+  width: 30vw;
+  height: 30vh;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#root {
+  background-color: rgba(247, 93, 173, 0.8);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.animationBox {
+  margin: 10px 0px;
+  width: fit-content;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 240px;
+}
